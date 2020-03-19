@@ -1,0 +1,8 @@
+C:\Users\damien.aigle\Desktop\CsharpExoDamienPerso\exo1\DapperORM01\BeKindRewind\BeKindRewind\bin\Debug\netstandard2.0\BeKindRewind.deps.json
+C:\Users\damien.aigle\Desktop\CsharpExoDamienPerso\exo1\DapperORM01\BeKindRewind\BeKindRewind\bin\Debug\netstandard2.0\BeKindRewind.dll
+C:\Users\damien.aigle\Desktop\CsharpExoDamienPerso\exo1\DapperORM01\BeKindRewind\BeKindRewind\obj\Debug\netstandard2.0\BeKindRewind.csprojAssemblyReference.cache
+C:\Users\damien.aigle\Desktop\CsharpExoDamienPerso\exo1\DapperORM01\BeKindRewind\BeKindRewind\obj\Debug\netstandard2.0\BeKindRewind.AssemblyInfoInputs.cache
+C:\Users\damien.aigle\Desktop\CsharpExoDamienPerso\exo1\DapperORM01\BeKindRewind\BeKindRewind\obj\Debug\netstandard2.0\BeKindRewind.AssemblyInfo.cs
+C:\Users\damien.aigle\Desktop\CsharpExoDamienPerso\exo1\DapperORM01\BeKindRewind\BeKindRewind\bin\Debug\netstandard2.0\BeKindRewind.pdb
+C:\Users\damien.aigle\Desktop\CsharpExoDamienPerso\exo1\DapperORM01\BeKindRewind\BeKindRewind\obj\Debug\netstandard2.0\BeKindRewind.dll
+C:\Users\damien.aigle\Desktop\CsharpExoDamienPerso\exo1\DapperORM01\BeKindRewind\BeKindRewind\obj\Debug\netstandard2.0\BeKindRewind.pdb
