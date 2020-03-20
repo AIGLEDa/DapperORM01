@@ -1,7 +1,7 @@
 ﻿using System;
 using BeKindRewind;
 using System.Data.SqlClient;
-
+using System.Linq;
 
 /// <summary>
 /// version test
@@ -16,8 +16,10 @@ namespace BeKindRewindConsole
 
         static void Main(string[] args)
         {
+            bool ended = false;
             string valeurMenu;
-            //Console.WriteLine("tapper comme le menu demande");
+
+            int index = 0;
 
 
             do
@@ -28,31 +30,65 @@ namespace BeKindRewindConsole
                 Console.WriteLine("1 pour choisir la category");
                 Console.WriteLine("Quitter pour quitter ");
                 valeurMenu = Console.ReadLine();
-                int.TryParse(valeurMenu, out int choixMenu);
+                if(int.TryParse(valeurMenu, out int choixMenu))
+                {
+                    Console.WriteLine($"votre choix est : {choixMenu}");
+                }
+                else
+                {
+                    Console.WriteLine("veuillez tapper à nouveau. Votre choix ne fait pas" +
+                        " parti du menu");
+                }
                 if (choixMenu == 1)
                 {
-                    CatalogRepository affiche = new CatalogRepository(connectionString);
-                    // using (var affiche = new CatalogRepository(connectionStr))
-                    //using (SqlConnection connection = new SqlConnection(connectionString))
+                    try
                     {
-                        Console.WriteLine("test");
-                          foreach (var category in affiche.AllCategory)
+                        CatalogRepository affiche = new CatalogRepository(connectionString);
                         {
-                        Console.WriteLine($"({category.CategoryId}) {category.Name}  {category.LastUpdate}");
+
+                            foreach (var category in affiche.AllCategory)
+                            {
+                                Console.WriteLine($"({category.CategoryId}) {++index} {category.Name}  {category.LastUpdate}");
+
+                            
+                            }
+
+                            Console.WriteLine("Veuillez choisir une catégorie");
+                            string MenuChoice = Console.ReadLine();
+                            if(int.TryParse(MenuChoice, out int ChoiceInTheMenu))
+                            {
+                                Console.WriteLine($"Your choice is : {ChoiceInTheMenu}");
+                                if(index == ChoiceInTheMenu)
+                                {
+                                    ended = true;
+                                    
+                                    Console.WriteLine("");
+                                }
+                                else if(1<= ChoiceInTheMenu && ChoiceInTheMenu < index)
+                                {
+                                    var categoryName = affiche.AllCategory.ElementAt(ChoiceInTheMenu - 1).Name;
+                                    Console.WriteLine($"vous avez choisi {categoryName}");
+                                    foreach (var film in affiche.GetFilmsByCategory(affiche.AllCategory.ElementAt(ChoiceInTheMenu - 1)).Take(10))
+                                    {
+                                        Console.WriteLine($"l'id du filme est : {film.FilmId} et son titre est : {film.Title}");
+                                    }
+                                }
+
+
+                            }
+                            else
+                            {
+                                Console.WriteLine($"There is a issue in the choice in the menu");
+                            }
                         }
+                    }
+                    catch (SqlException e)
+                    {
+                        Console.Error.WriteLine($"Database connection: {e.Message}");
                     }
 
                 }
 
-
-                // utilisation Dapper
-                //Exercice : remplir _allArtists avec un foreach
-
-                /* foreach (var artist in liste)
-                 {
-                     _allArtists.Add(artist.IdArtist, artist);
-                 }
-                 */
 
             } while ("Quitter" != valeurMenu);
 

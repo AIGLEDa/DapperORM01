@@ -1162,11 +1162,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\damien.aigle\\Desktop\\CsharpExoDamienPerso\\exo1\\DapperORM01\\BeKindRewind\\BeKindRewind\\BeKindRewind.csproj",
+      "projectUniqueName": "C:\\Users\\damien.aigle\\Desktop\\Projet sur git\\Projet01DapperORM\\DapperORM01\\BeKindRewind\\BeKindRewind.csproj",
       "projectName": "BeKindRewind",
-      "projectPath": "C:\\Users\\damien.aigle\\Desktop\\CsharpExoDamienPerso\\exo1\\DapperORM01\\BeKindRewind\\BeKindRewind\\BeKindRewind.csproj",
+      "projectPath": "C:\\Users\\damien.aigle\\Desktop\\Projet sur git\\Projet01DapperORM\\DapperORM01\\BeKindRewind\\BeKindRewind.csproj",
       "packagesPath": "C:\\Users\\damien.aigle\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\damien.aigle\\Desktop\\CsharpExoDamienPerso\\exo1\\DapperORM01\\BeKindRewind\\BeKindRewind\\obj\\",
+      "outputPath": "C:\\Users\\damien.aigle\\Desktop\\Projet sur git\\Projet01DapperORM\\DapperORM01\\BeKindRewind\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

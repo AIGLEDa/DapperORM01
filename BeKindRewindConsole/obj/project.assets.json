@@ -858,11 +858,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\damien.aigle\\Desktop\\CsharpExoDamienPerso\\exo1\\DapperORM01\\BeKindRewind\\BeKindRewindConsole\\BeKindRewindConsole.csproj",
+      "projectUniqueName": "C:\\Users\\damien.aigle\\Desktop\\Projet sur git\\Projet01DapperORM\\DapperORM01\\BeKindRewindConsole\\BeKindRewindConsole.csproj",
       "projectName": "BeKindRewindConsole",
-      "projectPath": "C:\\Users\\damien.aigle\\Desktop\\CsharpExoDamienPerso\\exo1\\DapperORM01\\BeKindRewind\\BeKindRewindConsole\\BeKindRewindConsole.csproj",
+      "projectPath": "C:\\Users\\damien.aigle\\Desktop\\Projet sur git\\Projet01DapperORM\\DapperORM01\\BeKindRewindConsole\\BeKindRewindConsole.csproj",
       "packagesPath": "C:\\Users\\damien.aigle\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\damien.aigle\\Desktop\\CsharpExoDamienPerso\\exo1\\DapperORM01\\BeKindRewind\\BeKindRewindConsole\\obj\\",
+      "outputPath": "C:\\Users\\damien.aigle\\Desktop\\Projet sur git\\Projet01DapperORM\\DapperORM01\\BeKindRewindConsole\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -882,8 +882,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\damien.aigle\\Desktop\\CsharpExoDamienPerso\\exo1\\DapperORM01\\BeKindRewind\\BeKindRewind\\BeKindRewind.csproj": {
-              "projectPath": "C:\\Users\\damien.aigle\\Desktop\\CsharpExoDamienPerso\\exo1\\DapperORM01\\BeKindRewind\\BeKindRewind\\BeKindRewind.csproj"
+            "C:\\Users\\damien.aigle\\Desktop\\Projet sur git\\Projet01DapperORM\\DapperORM01\\BeKindRewind\\BeKindRewind.csproj": {
+              "projectPath": "C:\\Users\\damien.aigle\\Desktop\\Projet sur git\\Projet01DapperORM\\DapperORM01\\BeKindRewind\\BeKindRewind.csproj"
             }
           }
         }
